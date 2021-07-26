@@ -10,7 +10,7 @@ class MainArea extends React.Component{
         return(
            <div className={classes.MainArea}>
                  <Header/>
-                 <Cards cardsDataArr={cardsDataArr}/>
+                 <Cards cardsDataArr={cardsDataArr} padding={'0 15px'}/>
                  <ThirdSection/>
           </div>
         )

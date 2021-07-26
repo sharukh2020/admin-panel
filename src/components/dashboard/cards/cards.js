@@ -29,7 +29,7 @@ class Cards extends React.Component{
             )
         })
         return(
-           <div className={classes.CardsContainer}>
+           <div className={classes.CardsContainer} style={{padding:`${this.props.padding}`}}>
                {cards}
            </div>
         )

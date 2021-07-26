@@ -34,7 +34,7 @@ class ThirdSection extends React.Component{
                       </div>
                    </div>
                    <div className={classes["right-section"]}>
-                         <Cards cardsDataArr={this.state.rightSectionCardData} cardWidth={"100%"}/>
+                         <Cards cardsDataArr={this.state.rightSectionCardData} cardWidth={"100%"} padding={'0 15px'}/>
                          <NewSupportTicketsSection/>
                    </div>
                </div>
