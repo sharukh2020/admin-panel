@@ -8,6 +8,7 @@ import Events from './pages/events/events'
 import PrePaidCards from './pages/prepaid-cards/prepaid-cards'
 import Loans from './pages/loans/loans'
 import SheduleEvent from './pages/shedule-event/shedule-event'
+import Support from './pages/support/support'
 
 class App extends React.Component{
  render(){
@@ -15,6 +16,7 @@ class App extends React.Component{
     <BrowserRouter>
       <div className={classes.App}>
         <Switch>
+          <Route path='/support' component={Support}/>
           <Route path='/loans' component={Loans}/>
           <Route path='/prepaid-cards' component={PrePaidCards}/>
           <Route path='/shedule-event' component={SheduleEvent}/>
