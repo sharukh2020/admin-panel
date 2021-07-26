@@ -92,7 +92,7 @@ caption{
 }
 .trc-two>div:nth-child(2),
 .trc-four,
-.trc-five{
+.trc-five>div:nth-child(1){
     font-family: Open Sans;
     font-style: normal;
     font-weight: 600;
@@ -116,6 +116,22 @@ caption{
     font-size: 12px;
     line-height: 20px;
     color: #FFB648;
+}
+.trc-five{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+}
+.trc-five>div:nth-child(2){
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #C5C7CD;
+    margin-top: 5px;
 }
 .trc-six,.trc-seven,.trc-eight{
     display: flex;

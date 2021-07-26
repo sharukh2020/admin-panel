@@ -99,7 +99,7 @@ class FourthSection extends React.Component{
                             <div>{item.userName}</div>
                         </div>
                         <div className={[classes['table-row-cell'],classes['trc-three']].join(' ')} style={{width:'12%'}}>
-                            <div style={{color:`${item.statusColor}`,backgroundColor:`${item.statusBgColor}`}}>item.status</div>
+                            <div style={{color:`${item.statusColor}`,backgroundColor:`${item.statusBgColor}`}}>{item.status}</div>
                         </div>
                         <div className={[classes['table-row-cell'],classes['trc-four']].join(' ')} style={{width:'20%'}}>
                             {item.phoneNumber}
@@ -108,7 +108,7 @@ class FourthSection extends React.Component{
                            {item.date}    
                         </div>
                         <div className={[classes['table-row-cell'],classes['trc-six']].join(' ')} style={{width:'22%'}}>
-                           <div>{item.Cardnumber}</div>
+                           <div>{item.cardNumber}</div>
                            <div>see balance</div>
                         </div>
                         <div className={[classes['table-row-cell'],classes['trc-seven']].join(' ')} style={{width:'12%'}}>

@@ -38,48 +38,53 @@ class FourthSection extends React.Component{
             tableRowData:[
                 {
                     userName:'Merril Dinz',
-                    status:'KYC',
+                    status:'Verifying',
                     phoneNumber:'9999999999',
                     date:'18.05.2020',
+                    time:'2:00 PM',
                     cardNumber:'1111 1111 1111 1111',
-                    statusColor:'#FFB648',
-                    statusBgColor:'rgba(255, 172, 50, 0.1)'
+                    statusColor:'white',
+                    statusBgColor:'#FEC400'
                 },
                 {
                     userName:'Merril Dinz',
-                    status:'KYC',
+                    status:'Approved',
                     phoneNumber:'9999999999',
                     date:'27.11.2019',
+                    time:'2:00 PM',
                     cardNumber:'1111 1111 1111 1111',
-                    statusColor:'#FFB648',
-                    statusBgColor:'rgba(255, 172, 50, 0.1)'
+                    statusColor:'white',
+                    statusBgColor:'#55BB59'
                 },
                 {
                     userName:'Merril Dinz',
-                    status:'Active User',
+                    status:'Rejected',
                     phoneNumber:'9999999999',
                     date:'04.11.2019',
+                    time:'2:00 PM',
                     cardNumber:'1111 1111 1111 1111',
-                    statusColor:'#5887FF',
-                    statusBgColor:'rgba(88, 135, 255, 0.1)'
+                    statusColor:'white',
+                    statusBgColor:'#E13E3E'
                 },
                 {
                     userName:'Merril Dinz',
                     status:'Active User',
                     phoneNumber:'9999999999',
                     date:'08.07.2020',
+                    time:'2:00 PM',
                     cardNumber:'1111 1111 1111 1111',
-                    statusColor:'#5887FF',
-                    statusBgColor:'rgba(88, 135, 255, 0.1)'
+                    statusColor:'#FFAD47',
+                    statusBgColor:'rgba(254, 196, 0, 0.15)'
                 },
                 {
                     userName:'Merril Dinz',
-                    status:'Active User',
+                    status:'Verifying',
                     phoneNumber:'9999999999',
                     date:'10.04.2020',
+                    time:'2:00 PM',
                     cardNumber:'1111 1111 1111 1111',
-                    statusColor:'#55BB59',
-                    statusBgColor:'rgba(85, 187, 89, 0.1)'
+                    statusColor:'white',
+                    statusBgColor:'#FEC400'
                 }
             ]
         }
@@ -103,13 +108,14 @@ class FourthSection extends React.Component{
                             <div>{item.userName}</div>
                         </div>
                         <div className={[classes['table-row-cell'],classes['trc-three']].join(' ')} style={{width:'12%'}}>
-                            <div style={{color:`${item.statusColor}`,backgroundColor:`${item.statusBgColor}`}}>item.status</div>
+                            <div style={{color:`${item.statusColor}`,backgroundColor:`${item.statusBgColor}`}}>{item.status}</div>
                         </div>
                         <div className={[classes['table-row-cell'],classes['trc-four']].join(' ')} style={{width:'20%'}}>
                             {item.phoneNumber}
                         </div>
                         <div className={[classes['table-row-cell'],classes['trc-five']].join(' ')} style={{width:'18%'}}>
-                           {item.date}    
+                          <div> {item.date}  </div>  
+                          <div>{item.time}</div>
                         </div>
                         <div className={[classes['table-row-cell'],classes['trc-six']].join(' ')} style={{width:'11%'}}>
                             <span style={{color:'black',fontSize:'17px',marginBottom:'8px'}} className="material-icons">insert_drive_file</span>
