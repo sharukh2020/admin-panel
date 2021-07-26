@@ -1,0 +1,13 @@
+.main-container{
+    width: 100%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 1px;
+    color: #171717;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #C4C4C4;
+
+}

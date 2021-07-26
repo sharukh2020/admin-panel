@@ -1,0 +1,20 @@
+.ThirdSection{
+    width: 100%;
+    padding: 15px 0 15px 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.left-section{
+    width: 73%;
+}
+.left-section-lower-part{
+    width: 100%;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+.right-section{
+    width: 25.50%;
+}

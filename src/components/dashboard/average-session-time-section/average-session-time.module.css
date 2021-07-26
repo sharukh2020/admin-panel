@@ -1,0 +1,42 @@
+.main-container{
+width:38%;
+height: 250px;
+background: #5F2EEA;
+box-shadow: 0px 15px 50px rgba(160, 163, 189, 0.1);
+border-radius: 10px;
+}
+.top-section{
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.upper-text{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.drop-down{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.drop-down-text{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #F2F2F2;
+}
+.bottom-section{
+    width: 100%;
+    height: 180px;
+    background-image: url("../../../assets/average-session-time.jpg");
+    background-repeat: no-repeat;
+    background-size: 120% 300px;
+    background-position: center center;
+}

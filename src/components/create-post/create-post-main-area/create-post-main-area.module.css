@@ -1,0 +1,11 @@
+.main-container{
+    width: 82%;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 15px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,95 @@
+.main-container{
+    width: 38.50%;
+    background: #FFFFFF;
+    box-shadow: -3px -3px 4px rgba(0, 0, 0, 0.1), 3px 4px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+.section-one{
+    padding: 20px 30px;
+    box-sizing: border-box;
+}
+.section-one>div:nth-child(1){
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+.section-one>div:nth-child(2){
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #9E9E9E;
+    margin-top: 10px;
+}
+.section-one>div:nth-child(2)>span{
+    margin-right: 30px;
+}
+.section-two{
+    padding: 0 30px 20px 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.st-left-section{
+    width: 62.43px;
+    height: 62.43px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    background-image: url(../../../assets/Rectangle\ 751.png);
+    background-repeat: no-repeat;
+    background-size: 100% 62.43px;
+}
+.st-right-section{
+    margin-left: 15px;
+}
+.st-right-section>div:nth-child(1){
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+.st-right-section>div:nth-child(2){
+    font-family: Open Sans;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+.section-three{
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+    background-image: url(../../../assets/Rectangle\ 726.png);
+    background-repeat: no-repeat;
+    background-size: 100% 200px;
+}
+.section-four{
+    padding: 30px 20px 55px 20px;
+}
+.section-four>div:nth-child(1){
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #0D0202;
+    margin-bottom: 7px;
+}
+.section-four>div:nth-child(2){
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}

@@ -1,0 +1,132 @@
+.table-head-row{
+    width:100%;
+    height: 48px;
+    background: #EFF0F6;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0px 1px 0px #DADBE4;
+    box-sizing: border-box;
+}
+.table-caption{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px ;
+    box-sizing: border-box;
+}
+caption{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: -0.3px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.download-upload-btns{
+    width: 40%;
+    display: flex;
+    justify-content:center;
+    align-items: center 
+}
+.download-upload-btns>div{
+    width:40% ;
+    background: #4F5052;
+    border: 2px solid #EEEEEE;
+    border-radius: 4px;
+    margin: 0px 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.thrc-one-square{
+    width: 15px;
+    height: 15px;
+    border: 1px solid #C1C1C1;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.table-head-row-cell{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: -0.3px;
+    color: #767676;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table-row{
+    width: 100%;
+    height: 64px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.table-row-cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trc-two>div:nth-child(1){
+    background: #C4C4C4;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.trc-two>div:nth-child(2),
+.trc-four,
+.trc-five{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 140%;
+    letter-spacing: -0.3px;
+    color: #767676;
+}
+.trc-three>div{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 1px 8px;
+    width: 85px;
+    height: 22px;
+    background: rgba(255, 172, 50, 0.1);
+    border-radius: 100px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFB648;
+}
+.trc-six,.trc-seven,.trc-eight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: -0.3px;
+    color: #4485FD;
+}

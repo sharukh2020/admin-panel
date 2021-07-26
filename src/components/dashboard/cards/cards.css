@@ -1,0 +1,36 @@
+.card-1{
+    background: #ebebf0;
+}
+.equalizer{
+    font-size: 25px;
+    color:#2F49D1;
+}
+.card-2{
+    background: #fff4e4;
+}
+.insert_drive_file{
+    font-size: 25px;
+    color: #FFB648;
+}
+.card-3{
+    background: #ebebf0;
+}
+.email{
+    font-size: 25px;
+    color:#2F49D1;
+}
+.card-4{
+    background: #d8ffec;
+}
+.auto_fix_normal{
+    font-size: 25px;
+    color:#4BDE97;
+}
+.trending_up{
+    color: #4BDE97;
+    font-size: 14px;
+}
+.trending_down{
+    color: red;
+    font-size: 14px;
+}
